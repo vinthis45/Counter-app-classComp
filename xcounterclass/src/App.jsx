@@ -13,7 +13,7 @@ class CounterApp extends Component {
 
   increment = () => {
     this.setState((prevState) => ({
-      count: prevState.count + 2,
+      count: prevState.count + 1,
     }));
   };
 
